@@ -27,6 +27,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
  
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        //calculate the width of the screen to calculate the height of the row
+        
+        return (self.view.frame.size.width / 320) * 180
+        
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -39,6 +46,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "BasicCell")!
         
         let videoTitle = videos[indexPath.row].videoTitle
+        
+        //get label for prototype cell
+        let label = cell.viewWithTag(2) as! UILabel
+        label.text = videoTitle
         
         //customize the cell to display the video title
         //cell.textLabel?.text = videoTitle
