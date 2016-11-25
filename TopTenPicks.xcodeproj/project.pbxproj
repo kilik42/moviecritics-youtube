@@ -14,6 +14,7 @@
 		100C92BB1DE76C6900ABA22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100C92B91DE76C6900ABA22F /* LaunchScreen.storyboard */; };
 		100C92C31DE77F6500ABA22F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C92C21DE77F6500ABA22F /* Video.swift */; };
 		100C92C51DE79E2F00ABA22F /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100C92C41DE79E2F00ABA22F /* VideoModel.swift */; };
+		100DA2B41DE7F8E4007C6E1E /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DA2B31DE7F8E4007C6E1E /* VideoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		100C92BC1DE76C6900ABA22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100C92C21DE77F6500ABA22F /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		100C92C41DE79E2F00ABA22F /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		100DA2B31DE7F8E4007C6E1E /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				100C92B71DE76C6900ABA22F /* Assets.xcassets */,
 				100C92B91DE76C6900ABA22F /* LaunchScreen.storyboard */,
 				100C92BC1DE76C6900ABA22F /* Info.plist */,
+				100DA2B31DE7F8E4007C6E1E /* VideoDetailViewController.swift */,
 			);
 			path = TopTenPicks;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				100C92B31DE76C6900ABA22F /* ViewController.swift in Sources */,
 				100C92C31DE77F6500ABA22F /* Video.swift in Sources */,
 				100C92B11DE76C6900ABA22F /* AppDelegate.swift in Sources */,
+				100DA2B41DE7F8E4007C6E1E /* VideoDetailViewController.swift in Sources */,
 				100C92C51DE79E2F00ABA22F /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +314,7 @@
 				100C92C11DE76C6900ABA22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
