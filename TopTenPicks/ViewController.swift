@@ -58,12 +58,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let videoThumbnailUrlString =  "https://i.ytimg.com/vi/" + videos[indexPath.row].videoId + "/hqdefault.jpg"
         
         //create an NSURL object
-        let videoThumbnailUrl = NSURL(string: videoThumbnailUrlString)
+        let videoThumbnailUrl = URL(string: videoThumbnailUrlString)
         
         
         if videoThumbnailUrl != nil {
             //create an NSURLRequest object
-            let request = URLRequest(url: videoThumbnailUrl as! URL)
+            let request = URLRequest(url: videoThumbnailUrl! )
             
             //create an NSURLSession
             let session = URLSession.shared

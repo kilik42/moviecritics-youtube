@@ -90,7 +90,7 @@
         <!--Video Detail View Controller-->
         <scene sceneID="JKY-Ev-c4d">
             <objects>
-                <viewController id="dXa-om-nSz" customClass="VideoDetailViewController" customModule="TopTenPicks" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="dXa-om-nSz" customClass="VideoDetailViewController" customModule="TopTenPicks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mwn-zo-5eh"/>
                         <viewControllerLayoutGuide type="bottom" id="ip2-vu-sOU"/>
