@@ -62,13 +62,13 @@
 			children = (
 				100C92B01DE76C6900ABA22F /* AppDelegate.swift */,
 				100C92B21DE76C6900ABA22F /* ViewController.swift */,
+				100DA2B31DE7F8E4007C6E1E /* VideoDetailViewController.swift */,
 				100C92C21DE77F6500ABA22F /* Video.swift */,
 				100C92C41DE79E2F00ABA22F /* VideoModel.swift */,
 				100C92B41DE76C6900ABA22F /* Main.storyboard */,
 				100C92B71DE76C6900ABA22F /* Assets.xcassets */,
 				100C92B91DE76C6900ABA22F /* LaunchScreen.storyboard */,
 				100C92BC1DE76C6900ABA22F /* Info.plist */,
-				100DA2B31DE7F8E4007C6E1E /* VideoDetailViewController.swift */,
 			);
 			path = TopTenPicks;
 			sourceTree = "<group>";
